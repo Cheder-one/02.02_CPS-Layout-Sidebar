@@ -45,13 +45,29 @@ ol {
   font-family: "TT Lakes Bold";
   src: url("../src/app/assets/font/TTLakes-Bold.woff") format("woff");
 }
+.example {
+  display: none;
+}
+
 /* ---- DESKTOP ---- */
 @media screen and (min-width: 1439.9px) {
   body {
     display: flex;
   }
-  .l-main-content,
-  .l-slide {
+  .example {
+    display: block;
+    position: absolute;
+    right: 25%;
+    top: 50%;
+  }
+  aside {
+    display: flex;
     flex-direction: column;
+    background: #fff;
+    order: -1;
+  }
+  .l-main-content {
+    flex-direction: column;
+    height: 3000px;
   }
 }/*# sourceMappingURL=styles.css.map */
