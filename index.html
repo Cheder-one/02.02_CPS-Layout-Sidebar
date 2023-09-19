@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="./src/app/components/b-top-menu/b-top-menu.css"
+    />
+    <link rel="stylesheet" href="./src/app/components/b-header/b-header.css" />
+    <link
+      rel="stylesheet"
+      href="./src/app/components/b-slide-menu/b-slide-menu.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./src/app/components/b-slide-row/b-slide-row.css"
+    />
+    <link rel="stylesheet" href="./src/app/components/b-about/b-about.css" />
+    <link
+      rel="stylesheet"
+      href="./src/app/components/b-about-content/b-about-content.css"
+    />
+
+    <!-- Sidebar -->
+    <link
+      rel="stylesheet"
+      href="./src/app/components/l-sidebar/l-sidebar.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./src/app/components/l-sidebar/b-sidebar-top/b-sidebar-top.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./src/app/components/l-sidebar/b-menu-list/b-menu-list.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./src/app/components/l-sidebar/b-contacts/b-contacts.css"
+    />
+
+    <title>CSP Макет</title>
+  </head>
+  <body>
+    <!-- SIDEBAR -->
+    <aside class="l-sidebar l-sidebar--box-model">
+      <!-- Top -->
+      <div class="b-sidebar-top b-sidebar-top--box-model">
+        <button class="b-sidebar-top__e-icon">
+          <img src="src/app/assets/img/ic/close-burger.svg" alt="call" />
+        </button>
+        <a href="#" class="b-sidebar-top__e-logo">
+          <img src="src/app/assets/img/logo/cps-logo.svg" alt="logo" />
+        </a>
+        <button class="b-sidebar-top__e-icon">
+          <img src="src/app/assets/img/ic/search.svg" alt="call" />
+        </button>
+      </div>
+
+      <!-- Menu List -->
+      <div class="b-menu-list b-menu-list--box-model">
+        <a class="b-menu-list__e-item b-menu-list__e-item--active">
+          Ремонт техники
+        </a>
+        <a class="b-menu-list__e-item">Услуги и сервисы</a>
+        <a class="b-menu-list__e-item">Корпоративным клиент</a>
+        <a class="b-menu-list__e-item">Продавцам техники</a>
+        <a class="b-menu-list__e-item">Партнерам</a>
+        <a class="b-menu-list__e-item">Производителям</a>
+        <a class="b-menu-list__e-item">Наши сервисные центры</a>
+        <a class="b-menu-list__e-item">Контакты</a>
+      </div>
+
+      <!-- Contacts -->
+      <div class="b-contacts b-contacts--box-model">
+        <div class="b-contacts__e-icons">
+          <button class="b-contacts__e-icon">
+            <img src="src/app/assets/img/ic/call.svg" alt="call" />
+          </button>
+          <button class="b-contacts__e-icon">
+            <img src="src/app/assets/img/ic/chat.svg" alt="chat" />
+          </button>
+          <button class="b-contacts__e-icon">
+            <img src="src/app/assets/img/ic/profile.svg" alt="profile" />
+          </button>
+        </div>
+
+        <address class="b-contacts__e-address">
+          <a class="b-contacts__e-mail" href="mailto:mail@cps.com"
+            >mail@cps.com</a
+          >
+          <a class="b-contacts__e-phone" href="tel:88008908900"
+            >8 800 890 8900</a
+          >
+        </address>
+      </div>
+
+      <!-- lang -->
+      <div class="l-sidebar__e-lang-list">
+        <button class="l-sidebar__e-lang l-sidebar__e-lang--active">RU</button>
+        <button class="l-sidebar__e-lang">EN</button>
+        <button class="l-sidebar__e-lang">CH</button>
+      </div>
+    </aside>
+
+    <footer></footer>
+  </body>
+</html>
